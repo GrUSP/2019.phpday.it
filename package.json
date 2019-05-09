@@ -4,9 +4,9 @@
   "description": "Conference site",
   "main": "index.js",
   "devDependencies": {
-    "dustman": "^1.11.55",
+    "dustman": "github:grusp/dustman",
     "frontsize": "git+https://github.com/ideatosrl/frontsize.git#372f2a6",
-    "gulp": "^4.0.0"
+    "gulp": "github:gulpjs/gulp"
   },
   "scripts": {
     "build": "./node_modules/.bin/gulp -S --config dustman-phpday.yml",
@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GrUSP/2017.cssday.it.git"
+    "url": "git+https://github.com/GrUSP/2019.phpday.it.git"
   },
   "author": "Vittorio <me@vittoriovittori.com> (http://vit.to/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GrUSP/2017.cssday.it/issues"
+    "url": "https://github.com/GrUSP/2019.phpday.it/issues"
   },
-  "homepage": "https://github.com/GrUSP/2017.cssday.it#readme",
+  "homepage": "https://github.com/GrUSP/2019.phpday.it#readme",
   "dependencies": {
     "jquery": "^3.1.1",
-    "moment": "^2.17.1"
+    "moment": "^2.24.0"
   }
 }
